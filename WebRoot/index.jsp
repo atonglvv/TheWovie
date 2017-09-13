@@ -40,7 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <div class="topbar-wrapper">
 
         <div class="network-items">
-            <a href="index.html">
+            <a href="index.jsp">
                 <img src="img/logo_none.png" alt="The Wovie" height=100%>
             </a>
         </div>
@@ -48,10 +48,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <div class="topbar-links">
             <div class="links-container">
                 <span class="topbar-menu-links">
-                    <a href="register.html">sign up</a>
-                    <a href="login.html">log in</a>
+                    <a href="jsp/register.jsp">sign up</a>
+                    <a href="jsp/login.jsp">log in</a>
                     <a href="#pageList">tour</a>
-                    <a href="aboutus.html" target="-blank">about us</a>
+                    <a href="jsp/aboutus.jsp" target="-blank">about us</a>
                     <a class="user">
                         <img alt="Innovation" class="avatar" src="img/innovation.jpg" height="20" width="20">
                     </a>
